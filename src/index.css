@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* { box-sizing: border-box;}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  a{text-decoration: none;}
+
+
+header, footer, section {padding: 30px 0;}
+header {background: #ddd; border-bottom: 1px solid #000;}
+footer {background: #000; border-top: 1px solid #ddd; color: #fff;}
+
+.container {width: 1195px; display: block; margin: 0 auto;}
+.itemheader { padding: 8px 12px; font-size: 24px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; display: table; width: 100%;}
+.item { display: table-cell;}
+.center-item { text-align: center;}
+.right-item {text-align: right;}
+.nav-ul li {display: inline-block; margin-left: 20px;}
+.massegeBox { padding:6px 15px; display: inline-block; background: green; color: #fff; font-size: 13px; border-radius: 3px; vertical-align: top}
+.itemBody { width: 100%;}
+.productList {padding: 8px 3%;}
+.product {margin: 8px; width: 23.5%; display: inline-block; vertical-align: top; align-items: center; border: 1px solid #ddd; }
+.loadingContent { min-height: 400px; text-align: center; font-size: 30px; color: #000; padding: 100px;}
+.thumbHolder {position: relative; text-align: center; padding: 18px 0;}
+.productTitle {display: block;}
+.productInfo { width: 100%; background: #ddd; padding: 10px;}
+.cell { margin: 5px 20px 0px 0px; display: inline-block; position: relative;}
+.cell:last-child {margin-right: 0}
+.cell2 {width: 35%;}
+.price.discount:before { position: absolute;  border-top: 3px solid red; content: ''; width: 100%; height: 4px; left: 0; top: 50%;}
+.addToCartBtn {border: 1px solid#14a2fc; color:#14a2fc; background: none; padding: 4px; border-radius: 5px; cursor: pointer;}
+.addToCartBtn:focus {outline: none;}
+.productCartArea {width: 75%; display: inline-block; vertical-align: top; padding: 20px;;}
+.billArea {width: 24%; display: inline-block; vertical-align: top; padding: 2px; margin-top: 20px; background: #ddd;}
+.cartHead, .cartBody {display: table; width: 100%; margin-bottom: 10px; text-align: center;}
+.cartHeadCell, .cartBodyCell {display: table-cell; padding: 10px 0; border-bottom: 1px solid #ddd;  border-top: 1px solid #ddd; width: 150px;;}
+.cartHeadCell:first-child, .cartBodyCell:first-child {width: 65%; margin-right: 10px; text-align: left;}
+.cartBodyCell {border: none;}
+.productName {padding: 5px; border: 1px solid #ddd; margin: 10px 0;}
+.productName * {vertical-align: middle;}
+.cartBodyCell * {display: inline-block; vertical-align: middle;}
+.pImg {margin-right: 10px;}
+.removeProduct {cursor: pointer;}
+.pQty {width: 30px; margin: 0 10px; text-align: center;}
+.billArea .collection {background: #fff; padding: 10px;}
+.checkout {padding: 10px;}
+.gotoCart a{ padding: 3px 30px; background: #14a2fc; color: #fff; font-size: 70%; border-radius: 3px; position: relative; text-decoration: none;}
+.gotoCart a span {position: absolute; width: 30px; height: 30px; background: #fff; border: 1px solid #ddd; border-radius: 50%; text-align: center; line-height: 30px; top: -8px; right: -8px; color: #000;}
+
+
+
